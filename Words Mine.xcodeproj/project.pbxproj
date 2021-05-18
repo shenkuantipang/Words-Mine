@@ -15,6 +15,12 @@
 		CCD8E1E02653BEE900DBEB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E1DE2653BEE900DBEB18 /* LaunchScreen.storyboard */; };
 		CCD8E1EB2653BEEA00DBEB18 /* Words_MineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8E1EA2653BEEA00DBEB18 /* Words_MineTests.swift */; };
 		CCD8E1F62653BEEA00DBEB18 /* Words_MineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8E1F52653BEEA00DBEB18 /* Words_MineUITests.swift */; };
+		CCD8E20B26543FA200DBEB18 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E20A26543FA200DBEB18 /* OpenSans-Bold.ttf */; };
+		CCD8E20D26543FA900DBEB18 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E20C26543FA900DBEB18 /* OpenSans-Light.ttf */; };
+		CCD8E20F26543FB100DBEB18 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E20E26543FB100DBEB18 /* OpenSans-Regular.ttf */; };
+		CCD8E21126543FB900DBEB18 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E21026543FB900DBEB18 /* OpenSans-SemiBold.ttf */; };
+		CCD8E21426544DC400DBEB18 /* DictionaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD8E21226544DC400DBEB18 /* DictionaryTableViewCell.swift */; };
+		CCD8E21526544DC400DBEB18 /* DictionaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD8E21326544DC400DBEB18 /* DictionaryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		CCD8E1F12653BEEA00DBEB18 /* Words MineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Words MineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD8E1F52653BEEA00DBEB18 /* Words_MineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words_MineUITests.swift; sourceTree = "<group>"; };
 		CCD8E1F72653BEEA00DBEB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD8E20A26543FA200DBEB18 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CCD8E20C26543FA900DBEB18 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		CCD8E20E26543FB100DBEB18 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CCD8E21026543FB900DBEB18 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBold.ttf"; path = "../../../../fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CCD8E21226544DC400DBEB18 /* DictionaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTableViewCell.swift; sourceTree = "<group>"; };
+		CCD8E21326544DC400DBEB18 /* DictionaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DictionaryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,10 @@
 		CCD8E1D22653BEE700DBEB18 /* Words Mine */ = {
 			isa = PBXGroup;
 			children = (
+				CCD8E20926543F6400DBEB18 /* fonts */,
 				CCD8E1D32653BEE700DBEB18 /* AppDelegate.swift */,
+				CCD8E21226544DC400DBEB18 /* DictionaryTableViewCell.swift */,
+				CCD8E21326544DC400DBEB18 /* DictionaryTableViewCell.xib */,
 				CCD8E1D52653BEE700DBEB18 /* SceneDelegate.swift */,
 				CCD8E1D72653BEE700DBEB18 /* ViewController.swift */,
 				CCD8E1D92653BEE700DBEB18 /* Main.storyboard */,
@@ -126,6 +141,17 @@
 				CCD8E1F72653BEEA00DBEB18 /* Info.plist */,
 			);
 			path = "Words MineUITests";
+			sourceTree = "<group>";
+		};
+		CCD8E20926543F6400DBEB18 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCD8E21026543FB900DBEB18 /* OpenSans-SemiBold.ttf */,
+				CCD8E20E26543FB100DBEB18 /* OpenSans-Regular.ttf */,
+				CCD8E20C26543FA900DBEB18 /* OpenSans-Light.ttf */,
+				CCD8E20A26543FA200DBEB18 /* OpenSans-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD8E20D26543FA900DBEB18 /* OpenSans-Light.ttf in Resources */,
 				CCD8E1E02653BEE900DBEB18 /* LaunchScreen.storyboard in Resources */,
+				CCD8E20F26543FB100DBEB18 /* OpenSans-Regular.ttf in Resources */,
+				CCD8E21126543FB900DBEB18 /* OpenSans-SemiBold.ttf in Resources */,
 				CCD8E1DD2653BEE900DBEB18 /* Assets.xcassets in Resources */,
+				CCD8E21526544DC400DBEB18 /* DictionaryTableViewCell.xib in Resources */,
+				CCD8E20B26543FA200DBEB18 /* OpenSans-Bold.ttf in Resources */,
 				CCD8E1DB2653BEE700DBEB18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD8E1D82653BEE700DBEB18 /* ViewController.swift in Sources */,
+				CCD8E21426544DC400DBEB18 /* DictionaryTableViewCell.swift in Sources */,
 				CCD8E1D42653BEE700DBEB18 /* AppDelegate.swift in Sources */,
 				CCD8E1D62653BEE700DBEB18 /* SceneDelegate.swift in Sources */,
 			);
